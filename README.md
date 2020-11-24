@@ -1,4 +1,9 @@
-# Navercafe_Auto_Comment v1
+# Navercafe_Auto_Comment v1.2
+
+## 릴리즈 노트
+
+- 로그인 창 구현
+- 좋아요 없는 글일 때 에러 뜨던 문제 해결
 
 ## 개요
 
