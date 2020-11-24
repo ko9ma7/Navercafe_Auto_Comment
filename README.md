@@ -46,7 +46,7 @@ try를 이용하여 오류 처리를 합니다.
 
 selenium  
 pyperclip  
-time
+time  
 tkinter
 
 ## 이후 구현 희망
