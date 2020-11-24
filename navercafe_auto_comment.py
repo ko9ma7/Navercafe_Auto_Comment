@@ -70,6 +70,8 @@ def login():
             like = driver.execute_script(
                 "return document.querySelector('#app > div > div > div.ArticleContentBox > div.article_container > div.ReplyBox > div.box_left > div > div > a').getAttribute('aria-pressed')")
         except:
+            driver.refresh()
+            time.sleep(2)
             continue
         # 종료 조건. 필독이 아니면서 좋아요가 눌러져있으면 종료.
         if like == 'true' and i > 2:
